@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  padding: 20px 30px;
+}
+.container .logo{
+  text-align: center;
+}
+.container .editor-area .code-input{
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.container .editor-area .code-output{
+  width: 100%;
+  height: 55vh;
+  border: 1px solid white;
+}
+.dark {
+  color: white;
+  background-color: black;
+}
+.dark-btn {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
